@@ -261,6 +261,7 @@ export default class VideoPlayer extends Component {
 
         this.methods.toggleControls();
         state.lastScreenPress = time;
+        state.loading = false;
 
         this.setState( state );
     }
